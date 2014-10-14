@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Wasteland">
+	<Package name="General">
+		<Key ID="STR_WL_Gen_TeamWEST">
+			<English>BLUFOR</English>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamWEST_2">
+			<English>BLUFOR</English>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamEAST">
+			<English>OPFOR</English>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamEAST_2">
+			<English>OPFOR</English>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamGUER">
+			<English>Independent</English>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamGUER_2">
+			<English>Independent</English>
+		</Key>
+		<Key ID="STR_WL_Gen_Warning">
+			<English>! Warning !</English>
+		</Key>
+	</Package>
+	<Package name="Loading">
+		<Key ID="STR_WL_Loading_Teamkiller">
+			<English>You are considered team-killer and therefore not allowed in BLUFOR or OPFOR teams. You will shortly be kicked back to the lobby where you can only join Independent and killing anyone is allowed.</English>
+		</Key>
+		<Key ID="STR_WL_Loading_Teamswitched">
+			<English>You have played as %1 for too long and cannot switch to the other team. You can still play as Independent. (or if online, ask an admin to unlock you)</English>
+		</Key>
+	</Package>
+	<Package name="Gameplay">
+		<Key ID="STR_WL_Action_Refuel_DriverSeat">
+			<English>Please enter driver seat before attempting to refuel the vehicle.</English>
+		</Key>
+	</Package>
+	<Package name="WelcomeMessage">
+		<Key ID="STR_WL_WelcomeToWasteland">
+			<English>&lt;t color='#FF8000' size='2.5' &gt;Gunslingers Wasteland &lt;/t&gt;</English>
+		</Key>
+		<Key ID="STR_WL_YouAreInTeam">
+			<English>&lt;t color='#FFFFFF' size='1.5' &gt;Welcome Mercenary, Happy hunting.&lt;br/&gt;</English>
+		</Key>
+		<Key ID="STR_WL_YouAreInFFA">
+			<English>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* You are &lt;t color="#00aa00"&gt;FREE TO ATTACK ANYONE&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO VOICE IN GLOBAL&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;/t&gt;</English>
+		</Key>
+		<Key ID="STR_WL_MapMoreInfo">
+			<English>&lt;t color='#FFFFFF' size='1.5' &gt;Info at http://www.gunslingergaming.com &lt;br/&gt;For more info please see the map&lt;br/&gt;&lt;br/&gt;&lt;/t&gt;&lt;t size='1.3'&gt;</English>
+			<!-- &lt;br/&gt;&lt;/t&gt;&lt;t size='1.3'&gt;[Hotfix X]&lt;/t&gt;&lt;br/&gt; -->
+		</Key>
+	</Package>
+	<Package name="TeamKillWarningMessage">
+		<Key ID="STR_TK_MESSAGE">
+			<English>&lt;t size='2' color='#ff0000'&gt;Team killing is against the rules!&lt;/t&gt;&lt;br/&gt;If this was a mistake then you must explain yourself and say sorry, otherwise they will mark you as team-killer and you will get kicked.</English>
+		</Key>
+	</Package>
+	<Package name="Diary">
+		<Key ID="STR_WL_Diary_RulesContent">
+			<English>&lt;br/&gt;    1. Keep bad language to a minimum. If you have a problem with another player, take it to direct.&lt;br/&gt;    2. NO VOIP IN GLOBAL. Use the channels or Teamspeak!.&lt;br/&gt;    3. Team killing when you are in BLUFOR or OPFOR is forbidden and punishable. Play as Independent if you want to be free for all.&lt;br/&gt;    4. Revealing information about your (ex)team to other teams is lame and not appreciated&lt;br/&gt;    5. Do not exploit R3F or any other add-ons or you will be banned.&lt;br/&gt;    6. Using or spamming with loud\long custom sound commands will cause punishment up to permanent ban</English>
+		</Key>
+	</Package>
+	<Package name="Shop">
+		<Key ID="STR_WL_Shop_Marker_GunStore">
+			<English>GUN-SHOP</English>
+		</Key>
+		<Key ID="STR_WL_Shop_Marker_GenStore">
+			<English>General store</English>
+		</Key>
+		<Key ID="STR_WL_Shop_Marker_Empty">
+			<English>Unoccupied</English>
+		</Key>
+		<Key ID="STR_WL_Shop_Marker_Enemy">
+			<English>Enemy players here</English>
+		</Key>
+		<Key ID="STR_WL_Shop_Marker_Friendly">
+			<English>Friendly players</English>
+		</Key>
+		<Key ID="STR_WL_Shop_Marker_Mixed">
+			<English>Enemy and friendly players</English>
+		</Key>
+		<Key ID="STR_WL_Shop_Message_EnemyApproaching">
+			<English>OMG! Enemy player just entered the area</English>
+		</Key>
+	</Package>
+	<Package name="ShopDescriptions">
+		<Key ID="STR_WL_ShopDescriptions_Water">
+			<English>Greece is a hot place! Drink plenty!</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Camo">
+			<English>An improvised roof, 4 sticks and a blanket!</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_CanFood">
+			<English>The Greek wastelands may get you hungry!</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_RepairKit">
+			<English>With this kit, you won't need an engineer!</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_MedKit">
+			<English>With this kit, you won't need a medic!</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_fuelFull">
+			<English>25 litres of pure unleaded fuel!</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_fuelEmpty">
+			<English>Empty fuel can. You can refill it!</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_spawnBeacon">
+			<English>Choose your spawn location. Disclaimer: This product does not guarantee safe delivery of goods.</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_SyphonHose">
+			<English>Go forth and steal fuel from vehicles!</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Energy_Drink">
+			<English>Allows you to sprint continuously for 5 minutes.</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Warchest">
+			<English>A safe to store your team's money.</English>
+		</Key>
+	</Package>
+	<Package name="Dialogs">
+		<Key ID="STR_WL_dialog_TeamkillText">
+			<English>You got team-killed by %2 player %1&lt;br/&gt;&lt;br/&gt;If this was an accident then forgive them, otherwise they should explain their actions.&lt;br/&gt;&lt;br/&gt;If the player does not explain why then select Punish or Announce.</English>
+		</Key>
+	</Package>
+	<Package name="Actions">
+		<Key ID="STR_WL_Acts_PlayerMenu">
+			<English>Player Settings/Inventory [~]</English>
+		</Key>
+	</Package>
+	<Package name="Errors">
+		<Key ID="STR_WL_Errors_InProgress">
+			<English>You are already performing another action!</English>
+		</Key>
+		<Key ID="STR_WL_Errors_InVehicle">
+			<English>You are currently busy!</English>
+		</Key>
+		<Key ID="STR_WL_Errors_BeaconActive">
+			<English>You already have an active spawn beacon!</English>
+		</Key>
+		<Key ID="STR_WL_Errors_BeaconInVehicle">
+			<English>You cannot enter a vehicle while placing a spawn beacon!</English>
+		</Key>		
+		<Key ID="STR_WL_Errors_BeaconTooMany">
+			<English>You cannot take more spawn beacons!</English>
+		</Key>						
+	</Package>
+</Project>
+<Project name="Virtual Ammobox System">
+	<Package name="Main">
+		<Key ID="STR_VAS_Main_Weapons">
+			<Original>Weapons</Original>
+			<German>Waffen</German>
+			<French>Armes</French> 
+			<Polish>Broń</Polish>
+			<Portuguese>Armas</Portuguese>
+			<Italian>Armi</Italian>
+			<Czech>Zbrane</Czech>
+			<Russian>Оружие</Russian>
+			<Spanish>Armas</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_Magazines">
+			<Original>Magazines</Original>
+			<German>Magazine</German>
+			<French>Chargeurs</French>
+			<Polish>Amunicja</Polish>
+			<Portuguese>Munições</Portuguese>
+			<Italian>Munizioni</Italian>
+			<Czech>Munice</Czech>
+			<Russian>Патроны</Russian>
+			<Spanish>Cargadores</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_Items">
+			<Original>Items</Original>
+			<German>Gegenstände</German>
+			<French>Objets</French>
+			<Polish>Przedmioty</Polish>
+			<Portuguese>Items</Portuguese>
+			<Italian>Oggetti</Italian>
+			<Czech>Predmety</Czech>
+			<Russian>Вещи</Russian>
+			<Spanish>Articulos</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_Backpacks">
+			<Original>Backpacks</Original>
+			<German>Rucksäcke</German>
+			<French>Sacs@Dos</French>
+			<Polish>Plecaki</Polish>
+			<Portuguese>Mochilas</Portuguese>
+			<Italian>Zaini</Italian>
+			<Czech>Batohy</Czech>
+			<Russian>Рюкзаки</Russian>
+			<Spanish>Mochilas</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_Goggles">
+			<Original>Goggles</Original>
+			<German>Brillen</German>
+			<French>Lunettes</French>
+			<Polish>Gogle</Polish>
+			<Portuguese>Óculos</Portuguese>
+			<Italian>Occhiali</Italian>
+			<Czech>Bryle</Czech>
+			<Russian>Очки</Russian>
+			<Spanish>Gafas</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_Uniforms">
+			<Original>Uniforms</Original>
+			<German>Uniformen</German>
+			<French>Uniformes</French>
+			<Polish>Mundury</Polish>
+			<Portuguese>Uniformes</Portuguese>
+			<Italian>Uniformi</Italian>
+			<Czech>Uniformy</Czech>
+			<Russian>Униформа</Russian>
+			<Spanish>Uniformes</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_Vests">
+			<Original>Vests</Original>
+			<German>Westen</German>
+			<French>Gilets Tac.</French>
+			<Polish>Kamizelki</Polish>
+			<Portuguese>Coletes</Portuguese>
+			<Italian>Gibernaggio</Italian>
+			<Czech>Vesty</Czech>
+			<Russian>Разгрузка</Russian>
+			<Spanish>Ropa</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_Headgear">
+			<Original>Headgear</Original>
+			<German>Kopfbekleidung</German>
+			<French>Casques</French>
+			<Polish>Nakrycia głowy</Polish>
+			<Portuguese>Capacetes</Portuguese>
+			<Italian>Elmetto</Italian>
+			<Czech>Pokryvky Hlavy</Czech>
+			<Russian>Шлемы</Russian>
+			<Spanish>Cascos</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_Attachments">
+			<Original>Attachments</Original>
+			<German>Anbauteile</German>
+			<French>Objets Attachés</French>
+			<Polish>Dodatki</Polish>
+			<Portuguese>Acessórios</Portuguese>
+			<Italian>Accessori</Italian>
+			<Czech>Doplnky</Czech>
+			<Russian>Приспособления</Russian>
+			<Spanish>Accesorios</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_Misc">
+			<Original>Misc</Original>
+			<German>Diverses</German>
+			<French>Objets Divers</French>
+			<Polish>Inne</Polish>
+			<Portuguese>Diversos</Portuguese>
+			<Italian>Varie</Italian>
+			<Czech>Ostatni</Czech>
+			<Russian>Разное</Russian>
+			<Spanish>Diversos</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_btnAdd">
+			<Original>Add Item</Original>
+			<German>Zufügen</German>
+			<French>Ajouter Arme/Obj.</French>
+			<Polish>Dodaj przedmiot</Polish>
+			<Portuguese>Acrescemtar Item</Portuguese>
+			<Italian>Aggiungi oggetto</Italian>
+			<Czech>Pridat predmet</Czech>
+			<Russian>Добавить</Russian>
+			<Spanish>Equipar Articulo</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_btnRemove">
+			<Original>Remove Item</Original>
+			<German>Entfernen</German>
+			<French>Retirer Arme/Obj.</French>
+			<Polish>Usuń przedmiot</Polish>
+			<Portuguese>Remover Item</Portuguese>
+			<Italian>Rimuovi oggetto</Italian>
+			<Czech>Odebrat Predmet</Czech>
+			<Russian>Убрать</Russian>
+			<Spanish>Eliminar Articulo</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_btnClose">
+			<Original>Close</Original>
+			<German>Schließen</German>
+			<French>X</French>
+			<Polish>Zamknij</Polish>
+			<Portuguese>Fechar</Portuguese>
+			<Italian>Chiudi</Italian>
+			<Czech>Zavrit</Czech>
+			<Russian>Закрыть</Russian>
+			<Spanish>Cerrar</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_btnLoad">
+			<Original>Load Gear</Original>
+			<German>Laden</German>
+			<French>Ouvrir un profil</French>
+			<Polish>Załaduj wyposażenie</Polish>
+			<Portuguese>Carregar Equipamento</Portuguese>
+			<Italian>Carica equipaggiamento</Italian>
+			<Czech>Nahrat Vybaveni</Czech>
+			<Russian>Загрузить</Russian>
+			<Spanish>Cargar</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_btnSave">
+			<Original>Save Gear</Original>
+			<German>Speichern</German>
+			<French>Sauvegarder Profil</French>
+			<Polish>Zapisz wyposażenie</Polish>
+			<Portuguese>Gravar Equipamento</Portuguese>
+			<Italian>Salva equipaggiamento</Italian>
+			<Czech>Ulozit Vybaveni</Czech>
+			<Russian>Сохранить</Russian>
+			<Spanish>Guardar</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_btnRemoveAll">
+			<Original>Remove All</Original>
+			<German>Alles Entfernen</German>
+			<French>Retir.Tout</French>
+			<Polish>Usuń wszystko</Polish>
+			<Portuguese>Retirar Tudo</Portuguese>
+			<Italian>Rimuovi tutto</Italian>
+			<Czech>Odebrat Vse</Czech>
+			<Russian>Очистить</Russian>
+			<Spanish>Eliminar Todo</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Main_VirtGear">
+			<Original>Virtual Ammobox</Original>
+			<German>Interaktive Waffenkiste</German>
+			<Portuguese>Caixa de Munições Virtual</Portuguese>
+			<Russian>Виртуальный ящик</Russian>
+		</Key>
+		<Key ID="STR_VAS_Main_YCG">
+			<Original>Your Current Gear</Original>
+			<German>Aktuelle Ausrüstung</German>
+			<French>Votre équipement actuel</French>
+			<Polish>Twoje Aktualne Wyposażenie</Polish>
+			<Portuguese>Equipamento Actual</Portuguese>
+			<Italian>Equipaggiamento attuale</Italian>
+			<Czech>Vase soucasne vybaveni</Czech>
+			<Russian>Ваше снаряжение</Russian>
+			<Spanish>Equipamiento Actual</Spanish>
+		</Key>
+		<Key ID="STR_Vas_Main_CL">
+			<Original>Custom Loadout</Original>
+			<German>Angepasste Ausrüstung</German>
+			<French>Emplacement perso</French>
+			<Polish>Niestandardowe wyposażenie</Polish>
+			<Portuguese>Equipamento Customizado</Portuguese>
+			<Italian>Equip. personalizzato</Italian>
+			<Czech>Vlastni Vybava</Czech>
+			<Russian>Особый набор</Russian>
+			<Spanish>Equipamiento Customizado</Spanish>
+		</Key>
+		<Key ID="STR_Vas_Main_Rifles">
+			<Original>Rifles</Original>
+			<German>Gewehre</German>
+			<French>Fusils (Tous)</French>
+			<Polish>Karabiny</Polish>
+			<Portuguese>Espingardas</Portuguese>
+			<Italian>Fucili</Italian>
+			<Czech>Pusky</Czech>
+			<Russian>Винтовки</Russian>
+			<Spanish>Fusiles</Spanish>
+		</Key>
+		<Key ID="STR_Vas_Main_Scoped">
+			<Original>Scoped</Original>
+			<German>Fernkampf</German>
+			<French>Fusils (Longs)</French>
+			<Polish>Bron Ciężka</Polish>
+			<Portuguese>Telescópicas</Portuguese>
+			<Italian>Fucili (ottica)</Italian>
+			<Czech>Odstrelovacky</Czech>
+			<Russian>С оптикой</Russian>
+			<Spanish>Fusiles Largos</Spanish>
+		</Key>
+		<Key ID="STR_Vas_Main_Heavy">
+			<Original>Heavy</Original>
+			<German>Schwere Waffen</German>
+			<French>Lourds</French>
+			<Polish>Wyrzutnie</Polish>
+			<Portuguese>Pesadas</Portuguese>
+			<Italian>Pesanti</Italian>
+			<Czech>Tezke Zbrane</Czech>
+			<Russian>Тяжелое</Russian>
+			<Spanish>Pesadas</Spanish>
+		</Key>
+		<Key ID="STR_Vas_Main_Launcher">
+			<Original>Launcher</Original>
+			<German>Raketenwerfer</German>
+			<French>Lanceurs</French>
+			<Portuguese>Lança-Misseis</Portuguese>
+			<Italian>Lanciamissili</Italian>
+			<Czech>Odpalovace</Czech>
+			<Russian>Гранатометы</Russian>
+			<Spanish>Lanzamisiles</Spanish>	
+		</Key>
+		<Key ID="STR_Vas_Main_Pistols">
+			<Original>Pistols</Original>
+			<German>Pistolen</German>
+			<French>Pistolets</French>
+			<Polish>Pistolety</Polish>
+			<Portuguese>Pistolas</Portuguese>
+			<Italian>Pistole</Italian>
+			<Czech>Pistole</Czech>
+			<Russian>Пистолеты</Russian>
+			<Spanish>Pistolas</Spanish>
+		</Key>
+		<Key ID="STR_VAS_restricted">
+			<Original>is a restricted item and will not be added to your inventory.</Original>
+			<Italian>è un oggetto bloccato e non sarà aggiunto al tuo inventario</Italian>
+		</Key>
+		<Key ID="STR_VAS_StartView">
+			<Original>View</Original>
+			<German>Blick</German>
+			<French>Vue</French>
+			<Polish>widok</Polish>
+			<Portuguese>Vista</Portuguese>
+			<Italian>Vista</Italian>
+			<Czech>Pohled</Czech>
+			<Russian>вид</Russian>
+			<Spanish>Vista</Spanish>
+		</Key>
+		<Key ID="STR_VAS_StopView">
+			<Original>Stop View</Original>
+			<German>Stop Blick</German>
+			<French>Stop Vue</French>
+			<Polish>zatrzymać widok</Polish>
+			<Portuguese>Pare Vista</Portuguese>
+			<Italian>Smettere Vista</Italian>
+			<Czech>přestat Pohled</Czech>
+			<Russian>остановить вид</Russian>
+			<Spanish>Detener Vista</Spanish>
+		</Key>
+		<Key ID="STR_VAS_FrontView">
+			<Original>Front</Original>
+			<German>Vorderseite</German>
+			<French>Avant</French>
+			<Polish>Przedni</Polish>
+			<Portuguese>Frontal</Portuguese>
+			<Italian>Frontale</Italian>
+			<Czech>přední</Czech>
+			<Russian>фронт</Russian>
+			<Spanish>Frente</Spanish>
+		</Key>
+		<Key ID="STR_VAS_BackView">
+			<Original>Back</Original>
+			<German>zurück</German>
+			<French>Arriere</French>
+			<Polish>z powrotem</Polish>
+			<Portuguese>De volta</Portuguese>
+			<Italian>Indietro</Italian>
+			<Czech>zpátky</Czech>
+			<Russian>назад</Russian>
+			<Spanish>Espalda</Spanish>
+		</Key>
+	</Package>
+	<Package name="LoadGear">
+		<Key ID="STR_VAS_Load_Title">
+			<Original>Armory CyclonUnited [C.U] Granolabar and =ATM= Pokertour - Load Gear</Original>
+			<German>Virtual Ammobox System - Ausrüstung Laden</German>
+			<French>Armurerie CyclonUnited [C.U] GranolaBar and =ATM= Pokertour - Ouverture Profil</French>
+			<Portuguese>Caixa de Munições Virtual - Carregar</Portuguese>
+			<Italian>Virtual Ammobox System - Carica equipaggiamento</Italian>
+			<Czech>Virtual Ammobox System - Nahrat Vybaveni</Czech>
+			<Russian>Виртуальный ящик - Загрузка снаряжения</Russian>
+			<Spanish>Virtual Ammobox System - Cargar Equipamiento</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Load_LOR">
+			<Original>Load On Respawn</Original>
+			<German>Beim Respawn Laden</German>
+			<French>Charger profil -> respawn</French>
+			<Polish>Załaduj przy respawnie</Polish>
+			<Portuguese>Carregar em Respawn</Portuguese>
+			<Italian>Carica al respawn</Italian>
+			<Czech>Vybava-respawn</Czech>
+			<Russian>Загрузить при появлении</Russian>
+			<Spanish>Equipar En Respawn</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Load_TransferBtn">
+			<Original>Transfer Profil -> Player</Original>
+			<French>Transferer profil -> joueur</French>
+			<Russian>Передать</Russian>
+		</Key>
+		<Key ID="STR_VAS_Load_btnLoad">
+			<Original>Load</Original>
+			<German>Laden</German>
+			<French>Charger le profil</French>
+			<Polish>Załaduj</Polish>
+			<Portuguese>Carregar</Portuguese>
+			<Italian>Carica</Italian>
+			<Czech>Nahrat</Czech>
+			<Russian>Загрузить</Russian>
+			<Spanish>Cargar</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Load_btnDelete">
+			<Original>Delete</Original>
+			<German>Löschen</German>
+			<French>Supprimer profil</French>
+			<Polish>Usuń</Polish>
+			<Portuguese>Apagar</Portuguese>
+			<Italian>Cancella</Italian>
+			<Czech>Smazat</Czech>
+			<Russian>Удалить</Russian>
+			<Spanish>Eliminar</Spanish>
+		</Key>
+	</Package>
+	<Package name="SaveGear">
+		<Key ID="STR_VAS_Save_Title">
+			<Original>Armory CyclonUnited[C.U] GranolaBar and =ATM= Pokertour - Save Gear</Original>
+			<German>Virtual Ammobox System - Ausrüstung Speichern</German>
+			<French>Armurerie CyclonUnited [C.U] GranolaBar and =ATM= Pokertour - Sauvegarde Profil</French>
+			<Portuguese>Caixa de Munições Virtual - Gravar</Portuguese>
+			<Italian>Virtual Ammobox System - Salva equipaggiamento</Italian>
+			<Czech>Virtual Ammobox System - Ulozit Vybaveni</Czech>
+			<Russian>Виртуальный ящик - Сохранение снаряжения</Russian>
+			<Spanish>Virtual Ammobox System - Guardar Equipamiento</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Save_btnSave">
+			<Original>Save</Original>
+			<German>Speichern</German>
+			<French>Sauvegarder le Profil</French>
+			<Polish>Zapisz</Polish>
+			<Portuguese>Gravar</Portuguese>
+			<Italian>Salva</Italian>
+			<Czech>Uloz</Czech>
+			<Russian>Сохранить</Russian>
+			<Spanish>Guardar</Spanish>
+		</Key>
+		<Key ID="STR_VAS_Save_CLN">
+			<Original>Custom Loadout Name</Original>
+			<German>Angepasste Ausrüstung</German>
+			<French>Nom de l'emplacement perso</French>
+			<Portuguese>Nome da Selecção</Portuguese>
+			<Italian>Nome equipaggiamento</Italian>
+			<Czech>Nazev Vybavy</Czech>
+			<Russian>Название набора</Russian>
+			<Spanish>Nombre De Equipamiento Customizado</Spanish>
+		</Key>
+	</Package>
+	<Package name="VASTransferMenu">
+		<Key ID="STR_VAS_Transfer_MainMenu">
+			<Original>Virtual Ammobox System - Transfer Menu</Original>
+			<Russian>Виртуальный Ящик - Меню Передачи</Russian>
+		</Key>
+		<Key ID="STR_VAS_Transfer_SaveMenu">
+			<Original>Virtual Ammobox System - Save Transfer</Original>
+		</Key>
+		<Key ID="STR_VAS_Transfer_Request">
+			<Original>wants to transfer you their saved loadout.</Original>
+		</Key>
+		<Key ID="STR_VAS_Transfer_Request2">
+			<Original>Would you like to receive this request and save it?</Original>
+		</Key>
+		<Key ID="STR_VAS_Transfer_NoSlotSelection">
+			<Original>You either did not select a slot that you wanted to transfer to another user or the slot had no information.</Original>
+			<Russian>Вы либо не выбрали слот, который вы хотели передать другому пользователю или в слоте не было никакой информации.</Russian>
+		</Key>
+		<Key ID="STR_VAS_Transfer_BadUnit">
+			<Original>The selected user either doesn't exist.</Original>
+		</Key>
+	</Package>
+	<Package name="VASPrompts">
+		<Key ID="STR_VAS_Prompt_selectSlotFail">
+			<Original>You didn't select a slot to delete!</Original>
+			<Italian>Non hai selezionato uno slot da cancellare</Italian>
+			<French>Aucun emplacement choisi pour être supprimé!</French>
+		</Key>
+		<Key ID="STR_VAS_Prompt_deleteSlotNoInfo">
+			<Original>You can't delete that slot, it has no information!</Original>
+			<Italian>Non puoi cancellare questo slot, è già vuoto</Italian>
+			<French>Vous ne pouvez pas supprimer cette emplacement, aucun enregistrement détecté!</French>
+		</Key>
+		<Key ID="STR_VAS_Prompt_deleteSlotWarning">
+			<Original>You are about to delete slot</Original>
+			<Italian>Stai per cancellare lo slot</Italian>
+			<French>Vous êtes sur le point de supprimer cet emplacement</French>
+		</Key>
+		<Key ID="STR_VAS_Prompt_deleteCanelled">
+			<Original>You cancelled deleting slot</Original>
+			<Italian>Hai cancellato lo slot cancellandolo</Italian>
+			<French>Vous avez annulé la suppression de l'emplacement</French>
+		</Key>
+		<Key ID="STR_VAS_Prompt_deleteSuccess">
+			<Original>You deleted slot</Original>
+			<Italian>Hai cancellato lo slot</Italian>
+			<French>Vous avez supprimé cet emplacement</French>
+		</Key>
+		<Key ID="STR_VAS_Prompt_deleteYes">
+			<Original>Yes</Original>
+			<Italian>Sì</Italian>
+			<Spanish>Sì</Spanish>
+			<French>Oui</French>
+		</Key>
+		<Key ID="STR_VAS_Prompt_deleteNo">
+			<Original>No</Original>
+			<Italian>No</Italian>
+			<Spanish>No</Spanish>
+			<French>Non</French>
+		</Key>
+		<Key ID="STR_VAS_Prompt_slotNoInfo">
+			<Original>You didn't select a slot!</Original>
+			<Italian>Non hai selezionato uno slot!</Italian>
+			<French>Vous n'avez pas choisi d'emplacement!</French>
+		</Key>
+		<Key ID="STR_VAS_Prompt_onRespawnFail">
+			<Original>No slot was selected to be loaded upon respawn!</Original>
+			<Italian>Non hai selezionato nessuno slot da caricare al respawn!</Italian>
+			<French>Aucun emplacement n'a été sélectionné pour être chargé lors de la réapparition!</French>
+			<Russian>Не выбран слот, который нужно загрузить</Russian>
+		</Key>
+		<Key ID="STR_VAS_Prompt_slotSelFail">
+			<Original>You didn't select a slot!</Original>
+			<Italian>Non hai selezionato uno slot</Italian>
+			<French>Vous n'avez pas choisi d'emplacement!</French>
+		</Key>
+		<Key ID="STR_VAS_Prompt_addToWeapon">
+			<Original>Weapon</Original>
+			<Italian>Armi</Italian>
+			<French>Armes</French>
+			<Russian>Оружие</Russian>
+		</Key>
+		<Key ID="STR_VAS_Prompt_addToInv">
+			<Original>Inventory</Original>
+			<Italian>Inventario</Italian>
+			<French>Inventaire</French>
+			<Russian>Инвентарь</Russian>
+		</Key>
+		<Key ID="STR_VAS_Prompt_acc1">
+			<Original>What do you want to do with that attachment?</Original>
+			<Italian>Cosa vuoi fare con questo accessorio?</Italian>
+			<French>Que voulez-vous faire avec cet emplacement?</French>
+			<Russian>Что вы хотите сделать с этим креплением?</Russian>
+		</Key>
+		<Key ID="STR_VAS_Prompt_acc2">
+			<Original>Please know that if you choose to add it to your weapon your current existing attachment in that slot will be lost.</Original>
+			<Italian>Attenzione, se attacchi l'accessorio alla tua arma, l'accessorio attaccato attualmente sarà sostituito.</Italian>
+			<French>Si vous choisissez de placer cette objet sur votre arme, sachez que l'objet actuellement placé sur l'arme sera automatiquement supprimé</French>
+			<Russian>Пожалуйста, знайте, что если вы прикрепите его к своему оружию, то ваше текущее крепление в этом слоте будет потеряно.</Russian>
+		</Key>
+	</Package>
+</Project>
